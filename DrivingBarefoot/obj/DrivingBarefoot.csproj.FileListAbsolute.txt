@@ -1,0 +1,5 @@
+E:\My Documents\Visual Studio 2005\Projects\DrivingBarefoot\DrivingBarefoot\obj\Debug\ResolveAssemblyReference.cache
+E:\My Documents\Visual Studio 2005\Projects\DrivingBarefoot\DrivingBarefoot\bin\Debug\DrivingBarefoot.dll
+E:\My Documents\Visual Studio 2005\Projects\DrivingBarefoot\DrivingBarefoot\bin\Debug\DrivingBarefoot.pdb
+E:\My Documents\Visual Studio 2005\Projects\DrivingBarefoot\DrivingBarefoot\obj\Debug\DrivingBarefoot.dll
+E:\My Documents\Visual Studio 2005\Projects\DrivingBarefoot\DrivingBarefoot\obj\Debug\DrivingBarefoot.pdb
