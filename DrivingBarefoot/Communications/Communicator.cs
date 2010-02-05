@@ -5,6 +5,24 @@ using System.Collections;
 
 namespace DrivingBarefoot.Communications
 {
+    /// <summary>
+    /// Abstract implementation of a Communicator which will send messages to some service.
+    /// 
+    /// TemplateFiles are used for sending pre-formatted messages, or Message may be set to send a plain old message body.
+    /// 
+    /// See EmailCommunicator, SMSCommunicator implementations.
+    /// 
+    /// <example>
+    /// Communicator email = new EmailCommunicator();
+    /// email.Subject = "Welcome!";
+    /// email.Message = "";
+    /// email.TemplateFile = "EmailWelcome.txt";
+    /// email.ToAddress = textBoxEmail.Text;
+    /// email.FromAddress = "phillbow@drivingbarefoot.com";
+    /// email.AddTemplateFields((new TemplateFields()).GetFields(textBoxUsername.Text));
+    /// email.SendMessage();
+    /// </example>
+    /// </summary>
     public abstract class Communicator
     {
         protected int _maxMessageLength;

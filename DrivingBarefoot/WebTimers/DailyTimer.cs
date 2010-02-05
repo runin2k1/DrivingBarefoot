@@ -4,6 +4,9 @@ using System.Text;
 
 namespace DrivingBarefoot.WebTimers
 {
+    /// <summary>
+    /// A WebTimer subclass which can be initialized to fire an event once per day at a specified hour
+    /// </summary>
     public class DailyTimer : WebTimer
     {
         private int _time;

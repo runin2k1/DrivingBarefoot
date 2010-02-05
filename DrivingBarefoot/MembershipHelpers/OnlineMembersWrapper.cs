@@ -7,6 +7,10 @@ namespace DrivingBarefoot.MembershipHelpers
 {
     public class OnlineMembersWrapper
     {
+        /// <summary>
+        /// Return a MembershipUserCollection of currently online users
+        /// </summary>
+        /// <returns></returns>
         public static MembershipUserCollection GetOnlineUsers()
         {
             MembershipUserCollection members = System.Web.Security.Membership.GetAllUsers();

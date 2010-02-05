@@ -8,6 +8,9 @@ using System.Web.Configuration;
 
 namespace DrivingBarefoot.Communications
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class CommunicatorTemplate
     {
         private string _fileName;

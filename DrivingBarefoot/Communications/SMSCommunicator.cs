@@ -5,6 +5,11 @@ using System.Net.Mail;
 
 namespace DrivingBarefoot.Communications
 {
+    /// <summary>
+    /// Basically the same as EmailCommunicator, this class requires message length be restricted and that the TO address match the appropriate SMS Gateway for the phone.  
+    /// Usually this requires the user to provide their phone number, and the correct provider information which can be matched against a
+    /// lookup of some sort(online, stored in db, etc...)
+    /// </summary>
     public class SMSCommunicator : Communicator
     {
 
@@ -12,7 +17,6 @@ namespace DrivingBarefoot.Communications
         {
             get { return 160; }
         }
-
 
         public override void SendMessage()
         {
@@ -33,8 +37,8 @@ namespace DrivingBarefoot.Communications
 
         public static void SendTestMessage()
         {
-            MailAddress from = new MailAddress("runin2k1@gmail.com");
-            MailAddress to = new MailAddress("7073217801@txt.att.net");
+            MailAddress from = new MailAddress("runi_zzzz@gmail.com");
+            MailAddress to = new MailAddress("707321xxxx@txt.att.net");
 
             MailMessage mailMessage = new MailMessage(from, to);
 
